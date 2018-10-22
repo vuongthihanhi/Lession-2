@@ -1,0 +1,52 @@
+.title {
+    font-size: 40px;
+    font-family: fantasy;
+    margin: 10px;
+    color: blue;
+}
+.form {
+    width: 500px;
+    height: 280px;
+    text-align: center;
+    margin: 40px 380px;
+    font-size: 25px;
+    border: 2px solid blue;
+}
+.text-item {
+    margin: 20px;
+}
+.user {
+    color: red;
+}
+.pass {
+    color: red;
+}
+.btn {
+    font-size: 20px;
+}
+.error{
+    font-size: 20px;
+    color: red;
+}
+table {
+    border: 3px solid black;
+    width: 80%;
+   }
+td {
+    text-align: center;
+}
+.buttonTable {
+    margin: 15px;
+    text-align: center;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+input[type="text"] {
+    width: 160px;
+}
+.textInput{
+    margin: 10px;
+}

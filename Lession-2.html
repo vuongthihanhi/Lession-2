@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Login Form</title>
+</head>
+<body>
+	<div class="form">
+		<h1 class="title"> Login Form </h1>
+		<div class="text-item">
+			<label class="user">UserName:</label>
+			<input id="userName" class="textUser"type="text" name="userName" placeholder="UserName">
+			<div>
+			<span class="error" id="errorName"></span>
+			</div>
+		</div>
+		
+		<div class="text-item">
+			<label class="pass">PassWord:</label>
+			<input class="errorPass" id="passWord" class="textPass" type="text" name="passWord" placeholder="PassWord">
+			<div>
+			<span class="error" id="errorPass"></span>
+			</div>
+		</div>
+		
+		<div class="button">
+			<button class="btn" onclick="clickBtnLogin()">Login</button>
+			<button class="btn" onclick="clickBtnLogout()">Logout</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="common.js"></script>
+</body>
+</html>
